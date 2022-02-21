@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&family=Noto+Sans+KR:wght@100;300;400;500&display=swap');
+/* font-family: 'Mukta', sans-serif; */
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+/* 초기화 */
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6,
+p, address, img, a, time, section, article,
+header, footer, nav, ul, ol, li, dl, dt, dd, iframe,
+form, fieldset, legend, input, label, textarea, button
+table, tr, td, th, thead, tbody, tfoot, caption { 
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {font-family: 'Mukta', 'Noto Sans KR', sans-serif;line-height: 1;}
+article, aside, details, footer, header, nav, section {
+    display: block;
+}
+ul, li, ol {
+    list-style: none;
+    /* 리스트 점 */
+}
+a{
+    text-decoration: none;  
+    /* 밑줄 */
+}
+img {
+    vertical-align: top;
+}
+hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+input, textarea{
+    width: 100%;
+    border-bottom: 1px solid #757575;
+    color: #7190aa;
+    font-size: 12px;
+    vertical-align: top;
+    border-radius: 0;
+}
+button{
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
